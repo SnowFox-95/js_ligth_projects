@@ -1,1 +1,20 @@
-body{background: red;}
+*,
+*::before,
+*::after {
+    margin : 0;
+    padding: 0;
+}
+
+.main {
+    margin       : 5px auto;
+    background   : #d0d0d0;
+    width        : 100%;
+    max-width    : 1600px;
+    height       : 500px;
+    font-size    : 40px;
+    border-radius: 15px;
+}
+
+h3 {
+    margin: 0 20px;
+}

@@ -1,0 +1,47 @@
+* {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height         : 100vh;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.text {
+    font-size     : 43px;
+    text-transform: uppercase;
+}
+
+.color-block {
+    width        : 500px;
+    height       : 500px;
+    border       : 1px solid #000;
+    border-radius: 10px;
+    box-shadow   : rgba(0, 0, 0, 0.5) 10px 10px 10px;
+    transition   : box-shadow, background-color 0.3s ease;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.5) 15px 15px 15px;
+    }
+
+}
+
+
+
+.btn {
+    margin          : 20px 0 0 0;
+    padding         : 15px 20px;
+    font-size       : 30px;
+    border          : 1px solid #000;
+    background-color: transparent;
+    border-radius   : 4px;
+    cursor          : pointer;
+}
